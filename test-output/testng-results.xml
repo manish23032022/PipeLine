@@ -2,25 +2,25 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-28T22:13:22 IST" name="Suite" finished-at="2024-10-28T22:13:22 IST" duration-ms="86">
+  <suite started-at="2024-11-16T21:45:36 IST" name="Suite" finished-at="2024-11-16T21:45:36 IST" duration-ms="49">
     <groups>
-      <group name="smoke">
-        <method signature="Login.Mtest()[pri:0, instance:Login.Login@5a45133e]" name="Mtest" class="Login.Login"/>
-        <method signature="Organization.Mtest()[pri:0, instance:Org.Organization@41a0aa7d]" name="Mtest" class="Org.Organization"/>
-      </group> <!-- smoke -->
+      <group name="regression">
+        <method signature="Login.Rtest()[pri:0, instance:Login.Login@5a45133e]" name="Rtest" class="Login.Login"/>
+        <method signature="Organization.Rtest()[pri:0, instance:Org.Organization@41a0aa7d]" name="Rtest" class="Org.Organization"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2024-10-28T22:13:22 IST" name="Test" finished-at="2024-10-28T22:13:22 IST" duration-ms="86">
+    <test started-at="2024-11-16T21:45:36 IST" name="Test" finished-at="2024-11-16T21:45:36 IST" duration-ms="49">
       <class name="Login.Login">
-        <test-method signature="Mtest()[pri:0, instance:Login.Login@5a45133e]" started-at="2024-10-28T22:13:22 IST" name="Mtest" finished-at="2024-10-28T22:13:22 IST" duration-ms="9" status="PASS">
+        <test-method signature="Rtest()[pri:0, instance:Login.Login@5a45133e]" started-at="2024-11-16T21:45:36 IST" name="Rtest" finished-at="2024-11-16T21:45:36 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Mtest -->
+        </test-method> <!-- Rtest -->
       </class> <!-- Login.Login -->
       <class name="Org.Organization">
-        <test-method signature="Mtest()[pri:0, instance:Org.Organization@41a0aa7d]" started-at="2024-10-28T22:13:22 IST" name="Mtest" finished-at="2024-10-28T22:13:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="Rtest()[pri:0, instance:Org.Organization@41a0aa7d]" started-at="2024-11-16T21:45:36 IST" name="Rtest" finished-at="2024-11-16T21:45:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Mtest -->
+        </test-method> <!-- Rtest -->
       </class> <!-- Org.Organization -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
