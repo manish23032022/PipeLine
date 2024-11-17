@@ -15,5 +15,7 @@ public class Login {
 		@Test (groups = "regression")
 		public void Rtest() {
 			System.out.println("Login Regression Testing..");
+			System.out.println("Login Regression Testing..5:52PM");
 		}
+		
 } 
